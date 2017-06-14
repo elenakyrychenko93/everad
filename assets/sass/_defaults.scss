@@ -1,0 +1,36 @@
+html, body {
+  position: relative;
+  height: 100%;
+  font-family: Arial;
+}
+
+body{
+  background-color: black;
+}
+
+input, button {
+  outline: none;
+}
+
+.wrapper-980{
+  margin: auto;
+  max-width: 980px;
+  box-sizing: border-box;
+}
+.text-orange {
+  color: #fc481a;
+}
+.bold {
+  font-family: $sans-narrow-bold;
+}
+h2 {
+  font-family: $sans-narrow;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

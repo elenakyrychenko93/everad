@@ -1,0 +1,141 @@
+@media screen and (max-width: 450px) {
+  main {
+    .block-1 {
+      position: relative;
+      .center-block {
+        width: 100%;
+        max-width: 100%;
+        min-height: 600px;
+        max-height: 620px;
+        z-index: 1;
+        overflow: hidden;
+        >img {
+          max-width: 100%;
+          margin-top:50px;
+          height:auto!important;
+        }
+      }
+      h1 {
+        font-size: 35px;
+        padding:10px;
+        text-align: center;
+      }
+      .left-block {
+        max-width: 300px;
+        width:100%;
+        display: block;
+        margin: 460px auto 10px;
+        img {
+          max-width: 100%;
+        }
+      }
+      .right-block {
+        max-width: 290px;
+        float: none;
+        margin: 20px auto;
+      }
+    }
+    .block-2 {
+      margin: 0 10px;
+
+      form {
+        padding:30px;
+        .questions {
+          margin-bottom: 25px;
+
+          .number {
+            font-size: 30px;
+            margin: 15px auto;
+            display: block;
+          }
+          .question {
+            font-size: 14px;
+            text-transform: uppercase;
+          }
+        }
+        .buttons {
+          margin: 5px 0;
+          button {
+            width:100%;
+            font-size: 14px;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+    .block-3 {
+      overflow: hidden;
+      margin: 0 10px;
+      .text {
+        max-width: 100%;
+        position: relative;
+        z-index: 3;
+        p {
+          max-width: 100%;
+          line-height: 20px;
+        }
+      }
+      .image {
+        display: none;
+      }
+    }
+    .block-4 {
+      background-position: 0% 100%;
+      overflow: hidden;
+      h2 {
+        margin-top: 40px;
+        font-size: 36px;
+      }
+      .benefits {
+        display: block;
+        position: relative;
+        .img-product {
+          position: relative;
+          margin: 0 auto;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          img {
+            max-width: 100%;
+          }
+        }
+        .benefits-list {
+          margin: 40px auto;
+          width: 100%;
+          float: none;
+          text-align: center;
+        }
+      }
+    }
+    .block-5 {
+      overflow: hidden;
+      margin: 0 10px;
+      .text {
+        max-width: 100%;
+        position: relative;
+        z-index: 3;
+        h2 {
+          font-size: 36px;
+        }
+        p {
+          max-width: 100%;
+          line-height: 20px;
+        }
+        .signature {
+          display:block;
+          .name {
+            display: block;
+          }
+          img {
+            display: block;
+            max-width:100%;
+            margin: 0 auto;
+          }
+        }
+      }
+      .image {
+        display: none;
+      }
+    }
+  }
+}

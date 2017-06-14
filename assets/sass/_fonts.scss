@@ -1,0 +1,57 @@
+/*@font-face {
+    font-family: 'master_of_breakregular';
+    src: url('/assets/fonts/master_of_break-webfont.eot');
+    src: url('/assets/fonts/master_of_break-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/master_of_break-webfont.woff2') format('woff2'),
+         url('/assets/fonts/master_of_break-webfont.woff') format('woff'),
+         url('/assets/fonts/master_of_break-webfont.ttf') format('truetype'),
+         url('/assets/fonts/master_of_break-webfont.svg#master_of_breakregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+@mixin fontFace($FontName, $FontPathName ) {
+
+  @font-face {
+
+    font-family: '#{$FontName}';
+    src:	url('../fonts/#{$FontPathName}/#{$FontName}.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/#{$FontPathName}/#{$FontName}.ttf') format('truetype'),
+    url('../fonts/#{$FontPathName}/#{$FontName}.otf') format('otf'),
+    url('../fonts/#{$FontPathName}/#{$FontName}.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@mixin font($family,$fs,$lh:$fs) {
+  font-family: $family;
+  font-size: $fs;
+
+  @if $lh {
+    line-height: $lh;
+  }
+}
+
+
+@include fontFace('PTSans-Regular', 'PT_Sans');
+@include fontFace('PTSans-Bold', 'PT_Sans');
+@include fontFace('PTSans-BoldItalic', 'PT_Sans');
+@include fontFace('PTSans-Narrow', 'PT_Sans');
+@include fontFace('PTSans-NarrowBold', 'PT_Sans');
+
+@include fontFace('Roboto-Medium', 'Roboto');
+@include fontFace('RobotoCondensed-Bold', 'Roboto');
+
+
+$sans-regular: 'PTSans-Regular', Arial, Helvetica, sans-serif;
+$sans-bold: 'PTSans-Bold', Arial, Helvetica, sans-serif;
+$sans-bold-italic: 'PTSans-BoldItalic', Arial, Helvetica, sans-serif;
+$sans-narrow: 'PTSans-Narrow', Arial, Helvetica, sans-serif;
+$sans-narrow-bold: 'PTSans-NarrowBold', Arial, Helvetica, sans-serif;
+
+$roboto-medium: 'PRoboto-Medium', Arial, Helvetica, sans-serif;
+$roboto-condensed-bold: 'RobotoCondensed-Bold', Arial, Helvetica, sans-serif;
+
+

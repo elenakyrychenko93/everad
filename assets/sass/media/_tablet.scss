@@ -1,0 +1,289 @@
+@media screen and (max-width: 978px) {
+  main {
+    .block-1 {
+      position: relative;
+      .center-block {
+        position: absolute;
+        left: 50%;
+        top: -55px;
+        transform: translateX(-50%);
+        width: 370px;
+        max-width: 100%;
+        max-height: 620px;
+        z-index: 1;
+        .action {
+          width: 350px;
+          max-width: 100%;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          text-align: center;
+          transform: translateX(-50%);
+          p {
+            font-family: $sans-narrow;
+            font-size: 19px;
+            padding-top: 15px;
+          }
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      h1 {
+        padding:0 10px 20px;
+        font-size: 68px;
+      }
+      .left-block {
+        max-width: 300px;
+        display: inline-block;
+        position: relative;
+        float: none;
+        z-index: 2;
+        margin: 450px 0 0 10px;
+      }
+      .right-block {
+        max-width: 290px;
+        float: right;
+        margin: 450px 10px 0 0;
+      }
+    }
+    .block-2 {
+      margin: 0 10px;
+    }
+    .block-3 {
+      overflow: hidden;
+      margin: 010px;
+      .text {
+        max-width: 70%;
+        position: relative;
+        z-index: 3;
+        p {
+          max-width: 70%;
+          line-height: 22px;
+        }
+      }
+      .image {
+        right: -150px;
+      }
+    }
+    .block-4 {
+      overflow: hidden;
+      h2 {
+        margin-top: 40px;
+      }
+      .benefits {
+        display: block;
+        position: relative;
+        .img-product {
+          position: relative;
+          margin: 0 auto;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          img {
+            max-width: 100%;
+          }
+        }
+        .benefits-list {
+          margin: 40px auto;
+          width: 670px;
+          float: none;
+        }
+      }
+    }
+    .block-5 {
+      overflow: hidden;
+      margin: 010px;
+      .text {
+        max-width: 69%;
+        z-index: 3;
+        p {
+          max-width: 67%;
+          font-size: 16px;
+          line-height: 22px;
+        }
+        .signature {
+          display:block;
+          .name {
+            display: block;
+          }
+        }
+      }
+      .image {
+        right: -220px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  main {
+    overflow: hidden;
+    .block-1 {
+      background-image: url("../../assets/img/back-1-min.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      .center-block {
+        position: absolute;
+        left: 50%;
+        top: -55px;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 100%;
+        max-height: 620px;
+        z-index: 1;
+        overflow: hidden;
+        text-align: center;
+        >img {
+          max-width:100%;
+        }
+        .action {
+          width: 350px;
+          max-width: 100%;
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          text-align: center;
+          transform: translateX(-50%);
+          p {
+            font-family: $sans-narrow;
+            font-size: 19px;
+            padding-top: 15px;
+          }
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+      .left-block {
+        max-width: 300px;
+        display: block;
+        position: relative;
+        float: none;
+        z-index: 2;
+        margin: 490px auto 10px;
+      }
+      .right-block {
+        max-width: 290px;
+        float: none;
+        margin: 20px auto 10px;
+      }
+    }
+    .block-2 {
+      margin: 0 10px;
+      form {
+        padding:30px 5px;
+        .questions {
+          margin-bottom: 25px;
+          .number {
+            margin: 0 5px;
+          }
+          .question {
+            font-size: 20px;
+          }
+        }
+        .buttons {
+          margin: 10px 0;
+          button {
+            padding:20px 0;
+            font-size: 20px;
+            margin: 10px;
+          }
+        }
+      }
+    }
+    .block-3 {
+      position: relative;
+      //color:white;
+      .text {
+        //background-color: rgba(0, 0, 0, 0.6);;
+        max-width: 80%;
+        h2 {
+          font-size: 30px;
+          text-align: left;
+          font-family: $sans-narrow-bold;
+        }
+        p {
+          font-family: $sans-regular;
+          margin-top:25px;
+          max-width: 60%;
+          font-size: 14px;
+          line-height: 20px;
+          .bold {
+            font-family: $sans-bold;
+            text-transform: uppercase;
+          }
+        }
+      }
+      .image {
+        overflow: hidden;
+        content:"";
+        bottom:0;
+        right:-170px;
+        height: 100%;
+        img {
+        }
+      }
+    }
+    .block-4 {
+      background-position: 0% 100%;
+      overflow: hidden;
+      h2 {
+        margin-top: 40px;
+      }
+      .benefits {
+        display: block;
+        position: relative;
+        .img-product {
+          position: relative;
+          margin: 0 auto;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          img {
+            max-width: 100%;
+          }
+        }
+        .benefits-list {
+          margin: 40px auto;
+          width: 100%;
+          float: none;
+          text-align: center;
+        }
+      }
+    }
+    .block-5 {
+      overflow: hidden;
+      margin: 0 10px;
+      .text {
+        max-width: 100%;
+        z-index: 3;
+        position: relative;
+        background-color: rgba(255,255,255, 0.5);
+        p {
+          max-width: 100%;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        .signature {
+          display:block;
+          .name {
+            display: block;
+          }
+        }
+      }
+      .image {
+        overflow: hidden;
+        content:"";
+        bottom:0;
+        right:-170px;
+        height: 100%;
+        img {
+        }
+      }
+    }
+  }
+}
